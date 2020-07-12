@@ -20,7 +20,6 @@ public class b {
 
         File file = new File("/home/yasodhara/Downloads/Sacramentorealestatetransactions.csv");
 
-        List<Transaction> transactions = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String line = "";
         while((line = reader.readLine()) != null) {
